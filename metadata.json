@@ -1,0 +1,5 @@
+{
+  "name": "AI Icon Suggester & Library",
+  "description": "An intelligent application that suggests appropriate icons for your text using the Gemini API. It also includes a searchable library of icons that you can browse and copy with a single click.",
+  "requestFramePermissions": []
+}

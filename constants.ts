@@ -1,0 +1,142 @@
+import type { IconInfo } from './types';
+
+export const ICONS: IconInfo[] = [
+  // Smileys & Emotion
+  { name: 'Grinning Face', char: '😀', tags: ['smile', 'happy', 'face', 'emotion', 'joy'] },
+  { name: 'Beaming Face with Smiling Eyes', char: '😁', tags: ['smile', 'happy', 'face', 'emotion', 'joy', 'grin'] },
+  { name: 'Face with Tears of Joy', char: '😂', tags: ['laugh', 'happy', 'face', 'emotion', 'cry', 'funny'] },
+  { name: 'Rolling on the Floor Laughing', char: '🤣', tags: ['rofl', 'laugh', 'happy', 'face', 'funny'] },
+  { name: 'Smiling Face with Halo', char: '😇', tags: ['angel', 'innocent', 'good', 'heaven'] },
+  { name: 'Winking Face', char: '😉', tags: ['wink', 'flirt', 'joke', 'face'] },
+  { name: 'Smiling Face with Heart-Eyes', char: '😍', tags: ['love', 'crush', 'heart', 'face', 'emotion'] },
+  { name: 'Star-Struck', char: '🤩', tags: ['star', 'eyes', 'impressed', 'wow'] },
+  { name: 'Face Blowing a Kiss', char: '😘', tags: ['kiss', 'love', 'flirt', 'heart'] },
+  { name: 'Thinking Face', char: '🤔', tags: ['think', 'question', 'idea', 'ponder'] },
+  { name: 'Zipper-Mouth Face', char: '🤐', tags: ['secret', 'quiet', 'silent', 'zip'] },
+  { name: 'Face with Raised Eyebrow', char: '🤨', tags: ['skeptical', 'doubt', 'suspicious'] },
+  { name: 'Neutral Face', char: '😐', tags: ['meh', 'neutral', 'indifferent'] },
+  { name: 'Expressionless Face', char: '😑', tags: ['annoyed', 'unamused'] },
+  { name: 'Smirking Face', char: '😏', tags: ['smirk', 'smug', 'flirt'] },
+  { name: 'Sad Face', char: '😢', tags: ['sad', 'cry', 'upset', 'face', 'emotion'] },
+  { name: 'Pleading Face', char: '🥺', tags: ['begging', 'puppy eyes', 'sad'] },
+  { name: 'Angry Face', char: '😠', tags: ['angry', 'mad', 'upset', 'face', 'emotion'] },
+  { name: 'Face with Steam From Nose', char: '😤', tags: ['angry', 'frustrated', 'triumph'] },
+  { name: 'Exploding Head', char: '🤯', tags: ['mind blown', 'shocked', 'amazed'] },
+  { name: 'Thumbs Up', char: '👍', tags: ['like', 'approve', 'agree', 'ok', 'good', 'hand'] },
+  { name: 'Thumbs Down', char: '👎', tags: ['dislike', 'reject', 'disagree', 'bad', 'hand'] },
+  { name: 'Clapping Hands', char: '👏', tags: ['clap', 'applause', 'praise', 'congratulations'] },
+  { name: 'Heart', char: '❤️', tags: ['love', 'like', 'favorite', 'emotion'] },
+  { name: 'Broken Heart', char: '💔', tags: ['sad', 'breakup', 'heartbreak'] },
+  { name: 'Fire', char: '🔥', tags: ['hot', 'lit', 'popular', 'trending', 'burn'] },
+  { name: 'Sparkles', char: '✨', tags: ['magic', 'new', 'clean', 'shiny', 'star'] },
+  { name: 'Star', char: '⭐', tags: ['favorite', 'rating', 'achievement', 'important'] },
+  { name: 'Party Popper', char: '🎉', tags: ['celebrate', 'party', 'congratulations', 'success'] },
+  { name: 'Ghost', char: '👻', tags: ['halloween', 'scary', 'spooky', 'monster'] },
+  { name: 'Hundred Points', char: '💯', tags: ['100', 'perfect', 'score', 'achievement'] },
+
+  // People & Body
+  { name: 'Waving Hand', char: '👋', tags: ['hello', 'goodbye', 'wave', 'greeting'] },
+  { name: 'Victory Hand', char: '✌️', tags: ['peace', 'victory', 'two'] },
+  { name: 'Crossed Fingers', char: '🤞', tags: ['luck', 'hopeful', 'wish'] },
+  { name: 'Flexed Biceps', char: '💪', tags: ['strong', 'muscle', 'strength', 'workout'] },
+  { name: 'Brain', char: '🧠', tags: ['mind', 'think', 'idea', 'intelligence', 'smart'] },
+  { name: 'Speech Bubble', char: '💬', tags: ['comment', 'chat', 'message', 'talk'] },
+  { name: 'Eye', char: '👁️', tags: ['see', 'view', 'look', 'watch'] },
+  { name: 'User', char: '👤', tags: ['person', 'profile', 'account', 'avatar'] },
+  { name: 'Group', char: '👥', tags: ['users', 'team', 'people', 'group'] },
+
+  // Objects
+  { name: 'Key', char: '🔑', tags: ['password', 'login', 'access', 'security', 'unlock'] },
+  { name: 'Lock', char: '🔒', tags: ['security', 'password', 'private', 'secure'] },
+  { name: 'Unlock', char: '🔓', tags: ['security', 'open', 'access', 'public'] },
+  { name: 'Light Bulb', char: '💡', tags: ['idea', 'tip', 'hint', 'suggestion', 'light'] },
+  { name: 'Money Bag', char: '💰', tags: ['money', 'cash', 'payment', 'finance', 'salary'] },
+  { name: 'Mail', char: '✉️', tags: ['email', 'message', 'inbox', 'contact'] },
+  { name: 'Calendar', char: '📅', tags: ['date', 'event', 'schedule', 'month'] },
+  { name: 'Bookmark', char: '🔖', tags: ['save', 'favorite', 'read later', 'tag'] },
+  { name: 'Camera', char: '📷', tags: ['photo', 'picture', 'image', 'capture'] },
+  { name: 'Magnifying Glass', char: '🔍', tags: ['search', 'find', 'lookup', 'zoom'] },
+  { name: 'Link', char: '🔗', tags: ['url', 'chain', 'connect', 'hyperlink'] },
+  { name: 'Paperclip', char: '📎', tags: ['attachment', 'file', 'document'] },
+  { name: 'Gear', char: '⚙️', tags: ['settings', 'options', 'controls', 'preferences'] },
+  { name: 'Shield', char: '🛡️', tags: ['security', 'protection', 'guard', 'safe', 'defense'] },
+  { name: 'Home', char: '🏠', tags: ['house', 'main', 'dashboard', 'start'] },
+  { name: 'Phone', char: '📱', tags: ['mobile', 'call', 'device', 'smartphone'] },
+  { name: 'Laptop', char: '💻', tags: ['computer', 'device', 'work', 'code'] },
+  { name: 'Printer', char: '🖨️', tags: ['print', 'document', 'office'] },
+  { name: 'Trash Can', char: '🗑️', tags: ['delete', 'remove', 'bin', 'garbage', 'trash'] },
+  { name: 'Pencil', char: '✏️', tags: ['edit', 'write', 'change', 'update'] },
+  { name: 'Book', char: '📖', tags: ['read', 'library', 'learn', 'education', 'document'] },
+  { name: 'Gift', char: '🎁', tags: ['present', 'surprise', 'birthday', 'reward'] },
+
+  // Food & Drink
+  { name: 'Pizza', char: '🍕', tags: ['food', 'snack', 'party'] },
+  { name: 'Burger', char: '🍔', tags: ['food', 'fast food', 'hamburger'] },
+  { name: 'Coffee', char: '☕', tags: ['drink', 'break', 'cafe', 'morning', 'beverage'] },
+  { name: 'Avocado', char: '🥑', tags: ['food', 'fruit', 'healthy'] },
+
+  // Travel & Places
+  { name: 'Rocket', char: '🚀', tags: ['launch', 'startup', 'fast', 'space', 'release'] },
+  { name: 'Globe', char: '🌐', tags: ['world', 'internet', 'language', 'translate', 'network'] },
+  { name: 'Map', char: '🗺️', tags: ['location', 'address', 'place', 'direction'] },
+  { name: 'Flag', char: '🚩', tags: ['report', 'mark', 'milestone', 'warning'] },
+
+  // Activities
+  { name: 'Trophy', char: '🏆', tags: ['award', 'prize', 'winner', 'achievement', 'success'] },
+  { name: 'Music Note', char: '🎵', tags: ['song', 'audio', 'sound', 'playlist'] },
+  { name: 'Video Camera', char: '📹', tags: ['movie', 'media', 'film', 'record'] },
+  
+  // Animals & Nature
+  { name: 'Dog Face', char: '🐶', tags: ['animal', 'pet', 'dog', 'puppy'] },
+  { name: 'Cat Face', char: '🐱', tags: ['animal', 'pet', 'cat', 'kitten'] },
+  { name: 'Panda', char: '🐼', tags: ['animal', 'bear', 'cute'] },
+  { name: 'See-No-Evil Monkey', char: '🙈', tags: ['monkey', 'shy', 'see'] },
+  { name: 'Hear-No-Evil Monkey', char: '🙉', tags: ['monkey', 'silent', 'hear'] },
+  { name: 'Speak-No-Evil Monkey', char: '🙊', tags: ['monkey', 'secret', 'speak'] },
+  { name: 'Tree', char: '🌳', tags: ['nature', 'plant', 'forest'] },
+
+  // Symbols
+  { name: 'Check Mark Button', char: '✅', tags: ['success', 'done', 'complete', 'valid', 'yes'] },
+  { name: 'Cross Mark', char: '❌', tags: ['error', 'wrong', 'cancel', 'no', 'stop', 'delete'] },
+  { name: 'Warning', char: '⚠️', tags: ['alert', 'danger', 'caution', 'important'] },
+  { name: 'Question Mark', char: '❓', tags: ['help', 'question', 'faq', 'support'] },
+  { name: 'Info', char: 'ℹ️', tags: ['information', 'details', 'about'] },
+  { name: 'Plus', char: '➕', tags: ['add', 'new', 'create', 'increase'] },
+  { name: 'Minus', char: '➖', tags: ['subtract', 'remove', 'decrease'] },
+  { name: 'Clock', char: '🕒', tags: ['time', 'watch', 'schedule', 'hour'] },
+  { name: 'Recycle', char: '♻️', tags: ['reload', 'sync', 'refresh', 'update', 'loop'] },
+  { name: 'Arrow Up', char: '⬆️', tags: ['direction', 'north', 'upload', 'top'] },
+  { name: 'Arrow Down', char: '⬇️', tags: ['direction', 'south', 'download'] },
+  { name: 'Arrow Left', char: '⬅️', tags: ['direction', 'west', 'back', 'previous'] },
+  { name: 'Arrow Right', char: '➡️', tags: ['direction', 'east', 'next', 'forward'] },
+
+  // Kaomojis (Emoticons)
+  { name: 'Shrugging Kaomoji', char: '¯\\_(ツ)_/¯', tags: ['shrug', 'dunno', 'whatever', 'kaomoji'] },
+  { name: 'Table Flip Kaomoji', char: '(╯°□°）╯︵ ┻━┻', tags: ['table flip', 'angry', 'rage', 'kaomoji'] },
+  { name: 'Happy Kaomoji', char: '(^_^) ', tags: ['happy', 'smile', 'joy', 'kaomoji'] },
+  { name: 'Love Kaomoji', char: '(｡♥‿♥｡)', tags: ['love', 'crush', 'heart', 'kaomoji'] },
+  { name: 'Crying Kaomoji', char: '(T_T)', tags: ['crying', 'sad', 'upset', 'kaomoji'] },
+  { name: 'Worried Kaomoji', char: '(・_・;)', tags: ['worried', 'nervous', 'anxious', 'kaomoji'] },
+  { name: 'Cat Kaomoji', char: '(=^ェ^=)', tags: ['cat', 'animal', 'cute', 'kaomoji'] },
+  { name: 'Bear Kaomoji', char: 'ʕ •́؈•̀ ₎', tags: ['bear', 'animal', 'cute', 'kaomoji'] },
+  { name: 'Sparkle Kaomoji', char: '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧', tags: ['sparkle', 'magic', 'excited', 'kaomoji'] },
+  { name: 'Hiding Kaomoji', char: '|ω･`)', tags: ['hiding', 'peeking', 'shy', 'kaomoji'] },
+
+  // Text Symbols
+  { name: 'Black Star', char: '★', tags: ['star', 'favorite', 'rating', 'symbol'] },
+  { name: 'White Star', char: '☆', tags: ['star', 'favorite', 'rating', 'symbol'] },
+  { name: 'Check Mark Symbol', char: '✓', tags: ['check', 'tick', 'done', 'symbol'] },
+  { name: 'Cross Mark Symbol', char: '✗', tags: ['cross', 'wrong', 'no', 'symbol'] },
+  { name: 'Right Arrow Symbol', char: '→', tags: ['arrow', 'right', 'direction', 'symbol'] },
+  { name: 'Left Arrow Symbol', char: '←', tags: ['arrow', 'left', 'direction', 'symbol'] },
+  { name: 'Up Arrow Symbol', char: '↑', tags: ['arrow', 'up', 'direction', 'symbol'] },
+  { name: 'Down Arrow Symbol', char: '↓', tags: ['arrow', 'down', 'direction', 'symbol'] },
+  { name: 'Bullet Point Symbol', char: '•', tags: ['bullet', 'list', 'point', 'symbol'] },
+  { name: 'Copyright Symbol', char: '©', tags: ['copyright', 'c', 'symbol'] },
+  // FIX: Corrected typo in property name from `name:t:` to `name:`.
+  { name: 'Registered Symbol', char: '®', tags: ['registered', 'r', 'symbol'] },
+  { name: 'Trademark Symbol', char: '™', tags: ['trademark', 'tm', 'symbol'] },
+];
+
+export const ICON_MAP = new Map(ICONS.map(icon => [icon.name, icon]));
+export const ICON_NAMES = ICONS.map(icon => icon.name);
